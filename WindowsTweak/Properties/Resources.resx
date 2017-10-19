@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DisableDefrag" xml:space="preserve">
+    <value>Disable-ScheduledTask -TaskName "ScheduledDefrag" -TaskPath "\Microsoft\Windows\Defrag\"</value>
+  </data>
+  <data name="DisableFlowControlOnNics" xml:space="preserve">
+    <value>Set-NetAdapterAdvancedProperty -Name * -DisplayName "Flow Control" -DisplayValue "Disabled"</value>
+  </data>
+  <data name="DisablePowerManagementOnNics" xml:space="preserve">
+    <value>Disable-NetAdapterPowerManagement -Name </value>
+  </data>
+  <data name="DisableQOSOnNics" xml:space="preserve">
+    <value>Disable-NetAdapterBinding -Name "{0}" -ComponentID ms_pacer</value>
+  </data>
+  <data name="DisableSynchronizeTimeFromInternet" xml:space="preserve">
+    <value>SYSTEM\CurrentControlSet\Services\W32Time\Parameters</value>
+  </data>
+  <data name="DisableTCPIP6OnNics" xml:space="preserve">
+    <value>Disable-NetAdapterBinding -Name "* -ComponentID ms_tcpip6</value>
+  </data>
+  <data name="DiskTimeoutAC" xml:space="preserve">
+    <value>-change -disk-timeout-ac 0</value>
+  </data>
+  <data name="DiskTimeoutDC" xml:space="preserve">
+    <value>-change -disk-timeout-dc 0</value>
+  </data>
+  <data name="HibernateTimeoutAC" xml:space="preserve">
+    <value>-change -hibernate-timeout-ac 0</value>
+  </data>
+  <data name="HibernateTimeoutDC" xml:space="preserve">
+    <value>-change -hibernate-timeout-dc 0</value>
+  </data>
+  <data name="MinimumProcessorStateAC" xml:space="preserve">
+    <value>-setacvalueindex 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c 54533251-82be-4824-96c1-47b60b740d00 893dee8e-2bef-41e0-89c6-b55d0929964c 100</value>
+  </data>
+  <data name="MinimumProcessorStateDC" xml:space="preserve">
+    <value>-setdcvalueindex 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c 54533251-82be-4824-96c1-47b60b740d00 893dee8e-2bef-41e0-89c6-b55d0929964c 100</value>
+  </data>
+  <data name="MonitorTimeoutAC" xml:space="preserve">
+    <value>-change -monitor-timeout-ac 0</value>
+  </data>
+  <data name="MonitorTimeoutDC" xml:space="preserve">
+    <value>-change -monitor-timeout-dc 0</value>
+  </data>
+  <data name="PowerCfg" xml:space="preserve">
+    <value>c:\windows\system32\powercfg.exe</value>
+  </data>
+  <data name="RegistrySettingClassicStartMenu" xml:space="preserve">
+    <value>Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\ClassicStartMenu</value>
+  </data>
+  <data name="RegistrySettingControlLSA" xml:space="preserve">
+    <value>SYSTEM\CurrentControlSet\Control\Lsa</value>
+  </data>
+  <data name="RegistrySettingCurrentVersionPoliciesSystem" xml:space="preserve">
+    <value>SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System</value>
+  </data>
+  <data name="RegistrySettingNewStartPanel" xml:space="preserve">
+    <value>Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel</value>
+  </data>
+  <data name="RegistrySettingRunAsAdministrator" xml:space="preserve">
+    <value>Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers</value>
+  </data>
+  <data name="RegistrySettingTerminalServer" xml:space="preserve">
+    <value>SYSTEM\CurrentControlSet\Control\Terminal Server</value>
+  </data>
+  <data name="RegistrySettingWindowsUpdate" xml:space="preserve">
+    <value>SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\AU</value>
+  </data>
+  <data name="RegistrySettingWinLogon" xml:space="preserve">
+    <value>SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon</value>
+  </data>
+  <data name="SleepTimeoutAC" xml:space="preserve">
+    <value>-setacvalueindex 381b4222-f694-41f0-9685-ff5bb260df2e 238c9fa8-0aad-41ed-83f4-97be242c8f20 29f6c1db-86da-48c5-9fdb-f2b67b1f44da 0</value>
+  </data>
+  <data name="SleepTimeoutDC" xml:space="preserve">
+    <value>-setacvalueindex 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c 238c9fa8-0aad-41ed-83f4-97be242c8f20 29f6c1db-86da-48c5-9fdb-f2b67b1f44da 0</value>
+  </data>
+  <data name="StandbyTimeoutAC" xml:space="preserve">
+    <value>-change -standby-timeout-ac 0</value>
+  </data>
+  <data name="StandbyTimeoutDC" xml:space="preserve">
+    <value>-change -standby-timeout-dc 0</value>
+  </data>
+  <data name="AddRegistryPathforAU" xml:space="preserve">
+    <value>New-Item "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\AU" -Force</value>
+  </data>
+  <data name="RegistryCurrentVersionMSAUNoAU" xml:space="preserve">
+    <value>New-ItemProperty HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\AU -Name NoAutoUpdate -Value 1</value>
+  </data>
+  <data name="RegistryCurrentVersionMSNewAU" xml:space="preserve">
+    <value>New-Item HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate -Name AU</value>
+  </data>
+  <data name="RegistryCurrentVersionMSNewWU" xml:space="preserve">
+    <value>New-Item HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\ -Name WindowsUpdate</value>
+  </data>
+  <data name="RegistryPoliciesMSAUNoAU" xml:space="preserve">
+    <value>New-ItemProperty HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU -Name NoAutoUpdate -Value 1</value>
+  </data>
+  <data name="RegistryPoliciesMSNewAU" xml:space="preserve">
+    <value>New-Item HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate -Name AU</value>
+  </data>
+  <data name="RegistryPoliciesMSNewWU" xml:space="preserve">
+    <value>New-Item HKLM:\SOFTWARE\Policies\Microsoft\Windows -Name WindowsUpdate</value>
+  </data>
+  <data name="TestPathforAUPath" xml:space="preserve">
+    <value>Test-Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\AU"</value>
+  </data>
+  <data name="TestPathForPolAU" xml:space="preserve">
+    <value>Test-Path HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU</value>
+  </data>
+  <data name="TestPathForPolWU" xml:space="preserve">
+    <value>Test-Path HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate</value>
+  </data>
+  <data name="TestPathForWUPath" xml:space="preserve">
+    <value>Test-Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate"</value>
+  </data>
+  <data name="RegistryPoliciesMSNewAUOptions" xml:space="preserve">
+    <value>New-ItemProperty HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU -Name AUOptions -Value 1</value>
+  </data>
+  <data name="RegistryHKCUDisableNotificationCenter" xml:space="preserve">
+    <value>New-ItemProperty HKCU:\SOFTWARE\Policies\Microsoft\Windows\Explorer -Name DisableNotificationCenter -Value 1</value>
+  </data>
+  <data name="RegistryHKCUPushNotifications" xml:space="preserve">
+    <value>New-Item HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion -Name PushNotifications</value>
+  </data>
+  <data name="RegistryHKCUToastEnabled" xml:space="preserve">
+    <value>New-ItemProperty HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\PushNotifications -Name ToastEnabled -Value 0</value>
+  </data>
+  <data name="RegistrySettingWindowsExplorer" xml:space="preserve">
+    <value>New-Item HKCU:\SOFTWARE\Policies\Microsoft\Windows -Name Explorer</value>
+  </data>
+</root>
